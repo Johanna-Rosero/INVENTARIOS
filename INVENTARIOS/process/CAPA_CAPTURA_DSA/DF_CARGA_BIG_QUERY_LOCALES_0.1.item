@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms8192M&quot;,&quot;-Xmx16384M&quot;]}"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" show="false" value="true"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="true"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:ZrSnCUZk3Gtp+9EpF3CVQ4dmtSD/Fj4vxCMdQ54E"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="JDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:wkasaxVBvFe88Q4TCfJi+eKuVRmuExoc4ZNdSsS6"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="__kJs5hwzEe6_gKW2qwGrXA" name="DQTechnical"/>
+    <routinesParameter id="__jtA8BwzEe6_gKW2qwGrXA" name="DataMasking"/>
+    <routinesParameter id="_wWfalhXKEe67U9CiJmlJ8A" name="DataOperation"/>
+    <routinesParameter id="__j2K6hwzEe6_gKW2qwGrXA" name="DataQualityDependencies"/>
+    <routinesParameter id="__j2K4BwzEe6_gKW2qwGrXA" name="DataQuality"/>
+    <routinesParameter id="__j_76xwzEe6_gKW2qwGrXA" name="DqStringHandling"/>
+    <routinesParameter id="_wWokgBXKEe67U9CiJmlJ8A" name="Mathematical"/>
+    <routinesParameter id="_wWyVgBXKEe67U9CiJmlJ8A" name="Numeric"/>
+    <routinesParameter id="_wWyVihXKEe67U9CiJmlJ8A" name="Relational"/>
+    <routinesParameter id="_wV49oBXKEe67U9CiJmlJ8A" name="SQLike"/>
+    <routinesParameter id="_wW8GgBXKEe67U9CiJmlJ8A" name="StringHandling"/>
+    <routinesParameter id="_wXFQcBXKEe67U9CiJmlJ8A" name="TalendDataGenerator"/>
+    <routinesParameter id="_wXFQehXKEe67U9CiJmlJ8A" name="TalendDate"/>
+    <routinesParameter id="_wXYydhXKEe67U9CiJmlJ8A" name="TalendStringUtil"/>
+    <routinesParameter id="_wXPBeRXKEe67U9CiJmlJ8A" name="TalendString"/>
+  </parameters>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_1"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:/YwB6mV/PTfimnfXWYnVBWwfUJPe2BTJJ7NYmBXY"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:mVRT80XQ0Q1tlWhdj8B4OSWjyQrknAfrvwndWMpJ"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;LOCALES&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="EMPTY"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:M5u7iyQF6uWdJd+cE1Flj6sg/rJfHNWx8ho+493b"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/LOCALES_FAV/PARTE_1/TEST1*.csv&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="1"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="true"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" value="null"/>
+    <elementParameter field="CHECK" name="DROP" value="true"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="PARTE_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_1">
+      <column comment="" key="false" length="20" name="CODIGOARTICULO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CODIGOBARRAS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOPROMEDIO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOULTIMACOMPRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TIPOCONTROLCOSTO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="AREATRABAJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="UNIDADMANEJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PROVEEDOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMARECEPCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAVENTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="FIELD_CODE" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="31" name="COSTOTOTAL" nullable="true" pattern="" precision="12" sourceType="DECIMAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAREGISTRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_7"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:sYzQihIoLLvXSBqHI80fR81jZ/gEKUKbJfalMWlj"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:s1oqfEXoM3bUC+BygTCXO3E5WLmPI4dGWOztd+Tj"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;SFICWORARE&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:Dkt8CFuhkFUpSNFJYWjmqM/0C7WuRe67ZauAokSq"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/SFICWORARE/SFINVTINVWORAREFIE736D*&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="0"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="false"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DROP" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="736_D"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_7">
+      <column comment="" key="true" length="36" name="UUID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="INVENTORY_WORK_AREA_UUID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="64" name="FIELD_CODE" nullable="false" pattern="" precision="0" sourceType="SMALLINT" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="WORK_AREA_CODE" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="REFERENCE_WORK_CODE" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="ITEM_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="COMPANY_CODE" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="16" name="QUANTITY" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="16" name="UNITARY_QUANTITY" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="DRIVE_UNITY_VALUE" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="32" name="AREA_ITEM_UNITY_VALUE_HASH" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="16" name="WEIGHT" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="26" name="LAST_TRANSACTION_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="VERSION" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="50" name="IP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="STATUS" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="32" name="REGISTER_USER" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="REGISTER_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="32" name="MODIFICATION_USER" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="26" name="MODIFICATION_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_6"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:0RSNqgd6K6zIE39zxcXKsmICIEvXSQZ1VpOmnnjt"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:pzPYjuSg61nIr1pCwPa0vFcIkG4p4QNTrIaAYV/e"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;SFICWORARE&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:IEGX055PhNZBIv3gUEJDYWncVArZFjKfRyBtB8IE"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/SFICWORARE/SFINVTINVWORAREFIE721C*&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="0"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="false"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DROP" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="721_C"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_6">
+      <column comment="" key="true" length="36" name="UUID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="INVENTORY_WORK_AREA_UUID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="64" name="FIELD_CODE" nullable="false" pattern="" precision="0" sourceType="SMALLINT" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="WORK_AREA_CODE" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="REFERENCE_WORK_CODE" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="ITEM_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="COMPANY_CODE" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="16" name="QUANTITY" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="16" name="UNITARY_QUANTITY" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="DRIVE_UNITY_VALUE" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="32" name="AREA_ITEM_UNITY_VALUE_HASH" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="16" name="WEIGHT" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="26" name="LAST_TRANSACTION_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="VERSION" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="50" name="IP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="STATUS" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="32" name="REGISTER_USER" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="REGISTER_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="32" name="MODIFICATION_USER" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="26" name="MODIFICATION_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="832" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_5"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:fDnObqKBwnXqywFD/B6HyYq9spxxBBgPrJYfFZea"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:DThLp4sprGnPQbJhb61OaKCym2UWedi2K+F4q8mG"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;SFICWORARE&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:scgYLNwlG3R+DVeO3wRvL5ePZ+n+TAq28XB3zfQ5"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/SFICWORARE/SFINVTINVWORAREFIE731B*&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="0"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="false"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DROP" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="731_B"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_5">
+      <column comment="" key="true" length="36" name="UUID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="36" name="INVENTORY_WORK_AREA_UUID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="64" name="FIELD_CODE" nullable="false" pattern="" precision="0" sourceType="SMALLINT" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="WORK_AREA_CODE" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="REFERENCE_WORK_CODE" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="ITEM_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="COMPANY_CODE" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="16" name="QUANTITY" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="16" name="UNITARY_QUANTITY" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="DRIVE_UNITY_VALUE" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="32" name="AREA_ITEM_UNITY_VALUE_HASH" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="16" name="WEIGHT" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="26" name="LAST_TRANSACTION_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="VERSION" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="50" name="IP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="STATUS" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="32" name="REGISTER_USER" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="REGISTER_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="32" name="MODIFICATION_USER" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="null" key="false" length="26" name="MODIFICATION_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_2"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:KOXQW7gy7IFmsLCB1+g5e8qcdYHzOG3x2CKUfu7G"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:ynttP66EdCWfFhFaGoyH+xIQzeEkiChH2cjJc8//"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;LOCALES&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:/3jcKECK3uOtmXTu3uCaggik+8Lmbx5YaNJNjztM"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/LOCALES_FAV/PARTE_2/TEST2*.csv&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="1"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="true"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" value="null"/>
+    <elementParameter field="CHECK" name="DROP" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="PARTE_2"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_2">
+      <column comment="" key="false" length="20" name="CODIGOARTICULO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CODIGOBARRAS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOPROMEDIO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOULTIMACOMPRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TIPOCONTROLCOSTO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="AREATRABAJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="UNIDADMANEJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PROVEEDOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMARECEPCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAVENTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="FIELD_CODE" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="31" name="COSTOTOTAL" nullable="true" pattern="" precision="12" sourceType="DECIMAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAREGISTRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_3"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:NU140TdX9pfOoMgoPy/yPLEuvNpQDbfqUnMrGlHJ"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:a3K9Asr7OmtkD9qpjbUhGZFiz2MMDhxA9oM4Jtmg"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;LOCALES&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:HyTm6xveiIwWDTmpg1KNNZLZ3kXtznL4uwYMXrxp"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/LOCALES_FAV/PARTE_3/TEST3*.csv&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="1"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="true"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" value="null"/>
+    <elementParameter field="CHECK" name="DROP" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="PARTE_3"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_3">
+      <column comment="" key="false" length="20" name="CODIGOARTICULO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CODIGOBARRAS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOPROMEDIO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOULTIMACOMPRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TIPOCONTROLCOSTO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="AREATRABAJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="UNIDADMANEJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PROVEEDOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMARECEPCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAVENTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="FIELD_CODE" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="31" name="COSTOTOTAL" nullable="true" pattern="" precision="12" sourceType="DECIMAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAREGISTRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_4"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:riYeaUMq0o4jD1g1XZeNw+hlEinynn1sIRGkan/w"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:O0qQCmemBXG6Wff4BygqQLR3DrvHgvguBHfUsHhL"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;LOCALES&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:uHbfnG2kwA+bjc0S2uNe8Hm8Bk4vzdnnqGFwG8fi"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/LOCALES_FAV/PARTE_4/TEST4*.csv&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="1"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="true"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" value="null"/>
+    <elementParameter field="CHECK" name="DROP" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="PARTE_4"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_4">
+      <column comment="" key="false" length="20" name="CODIGOARTICULO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CODIGOBARRAS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOPROMEDIO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOULTIMACOMPRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TIPOCONTROLCOSTO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="AREATRABAJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="UNIDADMANEJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PROVEEDOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMARECEPCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAVENTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="FIELD_CODE" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="31" name="COSTOTOTAL" nullable="true" pattern="" precision="12" sourceType="DECIMAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAREGISTRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_8"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:5yYBesKa4/XTTqmAQwdUaZSUu7v28to5T4wharK0"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:eRU0UOVaZ34SOTcgoMH5B2Qc9HvePwaiBAPcejdq"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;LOCALES&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:zFwrLTT6OY2FwVU/tpTdsMx1FKZXrUHGy6J/eYuj"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/LOCALES_FAV/PARTE_5/TEST5*.csv&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="1"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="true"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" value="null"/>
+    <elementParameter field="CHECK" name="DROP" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="PARTE_5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_8">
+      <column comment="" key="false" length="20" name="CODIGOARTICULO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CODIGOBARRAS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOPROMEDIO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOULTIMACOMPRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TIPOCONTROLCOSTO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="AREATRABAJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="UNIDADMANEJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PROVEEDOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMARECEPCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAVENTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="FIELD_CODE" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="31" name="COSTOTOTAL" nullable="true" pattern="" precision="12" sourceType="DECIMAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAREGISTRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_9"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:i+DTz57YJZ157VBXW/kGmFxbUnMThDWsLw3zLxSP"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:NR5Rx3xnvBXKzMuswhb4ZlYvQNl1O9fhLnXSarg4"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;LOCALES&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:PMu2nxnRjzc9TchfO3JHhDtHdzS/QHriTZ4HPfNh"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/LOCALES_FAV/PARTE_6/TEST6*.csv&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="1"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="true"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" value="null"/>
+    <elementParameter field="CHECK" name="DROP" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="PARTE_6"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_9">
+      <column comment="" key="false" length="20" name="CODIGOARTICULO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CODIGOBARRAS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOPROMEDIO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOULTIMACOMPRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TIPOCONTROLCOSTO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="AREATRABAJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="UNIDADMANEJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PROVEEDOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMARECEPCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAVENTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="FIELD_CODE" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="31" name="COSTOTOTAL" nullable="true" pattern="" precision="12" sourceType="DECIMAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAREGISTRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_10"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:USsUXmjgmWjvbRsr2tIZdtZz0C5OU6odblvVAMmX"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:7cDGDGC0L2hm9FbgfWEwQObLP4Fg34OV/SnYs1Xh"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;LOCALES&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:9iXS7OL+J3ltub5Vo0Omga/+efkA+GsOsggBlsA4"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/LOCALES_FAV/PARTE_7/TEST7*.csv&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="1"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="true"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" value="null"/>
+    <elementParameter field="CHECK" name="DROP" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="PARTE_7"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_10">
+      <column comment="" key="false" length="20" name="CODIGOARTICULO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CODIGOBARRAS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOPROMEDIO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOULTIMACOMPRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TIPOCONTROLCOSTO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="AREATRABAJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="UNIDADMANEJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PROVEEDOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMARECEPCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAVENTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="FIELD_CODE" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="31" name="COSTOTOTAL" nullable="true" pattern="" precision="12" sourceType="DECIMAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAREGISTRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_11"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:bXJEqiYYjU6GNIB6AQzMlUyF0/Fmb80DQGGcdWKZ"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:b6p55H975SMRSVtqSDpxbtxbxo4nwWLBB2gK6cC+"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;LOCALES&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:4i4OeoROc7Na3qXrKS7wXlcxj9g3gLE9NpyH+c0o"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/LOCALES_FAV/PARTE_8/TEST8*.csv&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="1"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="true"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" value="null"/>
+    <elementParameter field="CHECK" name="DROP" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="PARTE_8"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_11">
+      <column comment="" key="false" length="20" name="CODIGOARTICULO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CODIGOBARRAS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOPROMEDIO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOULTIMACOMPRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TIPOCONTROLCOSTO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="AREATRABAJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="UNIDADMANEJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PROVEEDOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMARECEPCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAVENTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="FIELD_CODE" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="31" name="COSTOTOTAL" nullable="true" pattern="" precision="12" sourceType="DECIMAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAREGISTRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_12"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:CiOPGA/crFMxKOWphXGHw9IM+LCpht4m9sE1mMP/"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:N9sjfUtGmmz3KydqjBzKkmvwqc1BHIDFDeb/Ab21"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;LOCALES&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:qgxSRvdtJWpKChRbB8yGLNtoYRD+LSq8PXgbLL53"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/LOCALES_FAV/PARTE_9/TEST9*.csv&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="1"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="true"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" value="null"/>
+    <elementParameter field="CHECK" name="DROP" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="PARTE_9"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_12">
+      <column comment="" key="false" length="20" name="CODIGOARTICULO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CODIGOBARRAS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOPROMEDIO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOULTIMACOMPRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TIPOCONTROLCOSTO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="AREATRABAJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="UNIDADMANEJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PROVEEDOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMARECEPCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAVENTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="FIELD_CODE" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="31" name="COSTOTOTAL" nullable="true" pattern="" precision="12" sourceType="DECIMAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAREGISTRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_13"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:j/M/KfMt3W+P95gTGPgNRv01N7bZu5oIX9Rr9/5x"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:SZmk+Rf8e+pcl95brvku2+jKW0QfVeIBrvZnx2L0"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;LOCALES&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:n1X9PtdCzf0WuqNjInMfZgvM89TPD+LwlgC5z+q8"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/LOCALES_FAV/PARTE_10/TEST10*.csv&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="1"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="true"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" value="null"/>
+    <elementParameter field="CHECK" name="DROP" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="PARTE_10"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_13">
+      <column comment="" key="false" length="20" name="CODIGOARTICULO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CODIGOBARRAS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOPROMEDIO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOULTIMACOMPRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TIPOCONTROLCOSTO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="AREATRABAJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="UNIDADMANEJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PROVEEDOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMARECEPCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAVENTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="FIELD_CODE" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="31" name="COSTOTOTAL" nullable="true" pattern="" precision="12" sourceType="DECIMAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAREGISTRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="512">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_14"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:b9bp7lMMcpbXCFjM+4/XE1v/S+PgmPpifeczMtxO"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:naoOyJAiILXx6ZCvYwjGM0bq0b4qNlzBY12ZG7M2"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;LOCALES&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:MYFHPaqGcez0VxzgcGL2BKY67GZhsTxcLI6RW3sA"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/LOCALES_FAV/PARTE_11/TEST11*.csv&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="1"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="true"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" value="null"/>
+    <elementParameter field="CHECK" name="DROP" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="PARTE_11"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_14">
+      <column comment="" key="false" length="20" name="CODIGOARTICULO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CODIGOBARRAS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOPROMEDIO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOULTIMACOMPRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TIPOCONTROLCOSTO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="AREATRABAJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="UNIDADMANEJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PROVEEDOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMARECEPCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAVENTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="FIELD_CODE" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="31" name="COSTOTOTAL" nullable="true" pattern="" precision="12" sourceType="DECIMAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAREGISTRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="512">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_15"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:ltlYLsqbcUS1gdASDXOlpIxw7mG4Y/QDMqoJ5AfX"/>
+    <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/bisolutions/Downloads/lafavorita-182519-0d2bcbb1a0db.json&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:sM8iEANH1doq1n1KJL8QYZfyHWcspKSP+9l7OjBb"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;lafavorita-182519&quot;"/>
+    <elementParameter field="TEXT" name="DATASET" value="&quot;PRUEBAS_BI_SOLUTIONS&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;LOCALES&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
+    <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
+    <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/key.json&quot;"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:TIYrtO0/GDsx5bwEnITRWxeUPa5VlDSHuL3IpgH8"/>
+    <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
+    <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://pruebas_talend_bi_solutions/LOCALES_FAV/PARTE_12/TEST12*.csv&quot;"/>
+    <elementParameter field="TEXT" name="GS_FILE_HEADER" value="1"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="false"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_GS" show="false" value="&quot;https://storage.googleapis.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT_BQ" show="false" value="&quot;https://bigquery.googleapis.com&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/bisolutions/Documents/Talend/Talend-Studio-20230428_0423-V8.0.1/workspace/token.properties&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_NULL_MARKER" value="true"/>
+    <elementParameter field="TEXT" name="CUSTOM_NULL_MARKER" value="null"/>
+    <elementParameter field="CHECK" name="DROP" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="LABEL" value="PARTE_12"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tBigQueryBulkExec_15">
+      <column comment="" key="false" length="20" name="CODIGOARTICULO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CODIGOBARRAS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOPROMEDIO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="COSTOULTIMACOMPRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TIPOCONTROLCOSTO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="AREATRABAJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="UNIDADMANEJO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PROVEEDOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMARECEPCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAVENTA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="FIELD_CODE" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAULTIMAMODIFICACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="31" name="COSTOTOTAL" nullable="true" pattern="" precision="12" sourceType="DECIMAL" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="FECHAREGISTRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="UNIDADES_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="CAJAS_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16" name="PESO_AREA_TRA" nullable="true" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tBigQueryBulkExec_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_7"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_6"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_5"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_4"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_8"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_9"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_10"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_11"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_12"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_13"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_14"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_15"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e8077314-4531-4011-840e-3ea567889ff0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>necVmLFOau9ie/y48+KScsN6y/5w5ZxHDASYqRgQhmdbabEgdXyJlLRjc4zMa82OsbgoAhIngxYZ&#13;
+ZBqgiRN0Jw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_db2c25ef-9ae7-4d32-9bc3-b42ad19b5d62"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iWrbistSbOPtQUQYPf0yrCDnDp6h1NfSquSXaVzHJco4qlUsyqUAfkS3xuiTwNnrqwi2BqhCwLwh&#13;
+ygxCQXqmog==</DigestValue></Reference></SignedInfo><SignatureValue>SOEeT3euXZRkzpKa08QwcqU9leWViivyvRLovPTQiqWOmVm18DUxzSyUknsM3PVZfWGENZpKhLeu&#13;
+CDCHvupwZFZr9DT5L2Cvmwuq4j0/EM4mtctdDTG8B/5yJEr39f5R7g6KETrgfHEL8+VTJBzRDBOj&#13;
+IBort3wBnBD+0jJZ8IgaQEQMtjZIJHQTvjke/8MEPwEfe/TDwGJ7GoZEJkLGv6WmjI8ETWQNlQV/&#13;
+qj4OCmc/0aJAzlO5KeY6OwgIzxShqx8Rh8GjrJdU+r3b/d6Kn6O+IjchNTtMSaYCTTnWfIxpqK+E&#13;
+fieQsguIgUwO3kQqvYPbIfdQYAVc5SocsbYS9w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_db2c25ef-9ae7-4d32-9bc3-b42ad19b5d62" Target="#_e8077314-4531-4011-840e-3ea567889ff0"><Timestamp>2024-03-14 00:23:57</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection comment="connectionComment" dataPackage="_aeHEgSTdEe6fspHeAdcETw" label="connectionLabel" xmi:id="_aeHEgCTdEe6fspHeAdcETw"/>
+  <TalendMetadata:GenericPackage dataManager="_aeHEgCTdEe6fspHeAdcETw" xmi:id="_aeHEgSTdEe6fspHeAdcETw">
+    <ownedElement label="metadata" xmi:id="_aeHEgiTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataTable">
+      <feature comment="Código de companía" id="1089215" key="true" label="CODIGOCOMPANIA" length="10" name="CODIGOCOMPANIA" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_aeHEgyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEhCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Código de la clasificación" id="1089216" key="true" label="CODIGOCLASIFICACION" length="10" name="CODIGOCLASIFICACION" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEhSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEhiTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Código de la clasificación padre, es decir, de la clasficación de la jerarquía superior en su árbol de registros" id="1089217" label="CODIGOCLASIFICACIONPADRE" length="10" name="CODIGOCLASIFICACIONPADRE" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEhyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEiCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Código de tipo de clasificación. Los valores pueden ser: [01] DIVISION [02] DEPARTAMENTO [03] CLASE [04] SUBCLASE " id="1089218" label="CODIGOTIPOCLASIFICACION" length="10" name="CODIGOTIPOCLASIFICACION" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEiSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEiiTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Código de bodega" id="1089219" label="CODIGOBODEGA" length="10" name="CODIGOBODEGA" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEiyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEjCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Código de comprador" id="1089220" label="CODIGOCOMPRADOR" length="10" name="CODIGOCOMPRADOR" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEjSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEjiTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Descripción de la clasificación" id="1089221" label="DESCRIPCIONCLASIFICACION" length="100" name="DESCRIPCIONCLASIFICACION" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEjyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEkCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Nivel de la clasificación" id="1089222" label="NIVELCLASIFICACION" length="10" name="NIVELCLASIFICACION" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_aeHEkSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEkiTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Estado de la clasificación, los valores pueden ser: [1] Activo, [0] Inactivo" id="1089223" label="ESTADOCLASIFICACION" length="1" name="ESTADOCLASIFICACION" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEkyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHElCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Fecha de última actualización del registro." id="1089224" label="FECHAULTIMAACTUALIZACION" length="26" name="FECHAULTIMAACTUALIZACION" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_aeHElSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEliTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="El usuario que relizó la última actualización sobre el registro." id="1089225" label="USUARIOACTUALIZACION" length="32" name="USUARIOACTUALIZACION" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHElyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEmCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Indica el usuario que creó el registro" id="1089226" label="USUARIOCREACION" length="32" name="USUARIOCREACION" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEmSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'FRM0'" xmi:id="_aeHEmiTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Indica la fecha en que fue creado el registro" id="1089227" label="FECHACREACION" length="26" name="FECHACREACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_aeHEmyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'CURRENT_TIMESTAMP'" xmi:id="_aeHEnCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Campo que permite saber si los artículos contenidos en dicha clasificación son aplicables de registro sanitario. Los valores pueden ser: [0] aplica, [1] no aplica." id="1089228" label="APLICAREGISTROSANITARIO" length="1" name="APLICAREGISTROSANITARIO" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEnSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'1'" xmi:id="_aeHEniTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Inicial con el tipo de bodega a la que pertenece la clasificación. [F] para Frios y [S] para Secos." id="1089229" label="TIPOBODEGA" length="1" name="TIPOBODEGA" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEnyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEoCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Indicador de publicación en internet, solo se usa a nivel de departamento" id="1089230" label="ESPUBLICADOINTERNET" length="1" name="ESPUBLICADOINTERNET" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_aeHEoSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'0'" xmi:id="_aeHEoiTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Descripción para la publicación en internet" id="1089231" label="DESCRIPCIONPUBLICACIONINTERNET" length="250" name="DESCRIPCIONPUBLICACIONINTERNET" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEoyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEpCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Valor del tipo de deducible para la clasificación de artículos" id="1089232" label="VALORTIPODEDUCIBLE" length="3" name="VALORTIPODEDUCIBLE" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEpSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEpiTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Código del tipo de deducible para la clasificación de artículos" id="1089233" label="CODIGOTIPODEDUCIBLE" length="10" name="CODIGOTIPODEDUCIBLE" sourceType="INTEGER" talendType="id_Integer" xmi:id="_aeHEpyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEqCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Porcentaje de diferencia entre el precio de afiliado y no afiliado" id="1089234" label="PORCENTAJENOAFILIADO" length="5" name="PORCENTAJENOAFILIADO" nullable="false" precision="2" sourceType="DECIMAL" talendType="id_BigDecimal" xmi:id="_aeHEqSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="5" xmi:id="_aeHEqiTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="valor del tipo de distribución" id="1089235" label="VALORTIPODISTRIBUCION" length="3" name="VALORTIPODISTRIBUCION" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEqyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'DIR'" xmi:id="_aeHErCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="código del tipo de distribución" id="1089236" label="CODIGOTIPODISTRIBUCION" length="10" name="CODIGOTIPODISTRIBUCION" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_aeHErSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="209" xmi:id="_aeHEriTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Especifica el tipo de la estructura comercial" id="1089237" label="CODIGOTIPOESTRUCTURA" length="10" name="CODIGOTIPOESTRUCTURA" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_aeHEryTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="418" xmi:id="_aeHEsCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Especifica el valor de la estructura comercial" id="1089238" label="VALORTIPOESTRUCTURA" length="3" name="VALORTIPOESTRUCTURA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEsSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'ESC'" xmi:id="_aeHEsiTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Especifica el orden de la clasificación para la estructura comercial orientada al cliente" id="1089239" label="ORDEN" length="10" name="ORDEN" sourceType="INTEGER" talendType="id_Integer" xmi:id="_aeHEsyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEtCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Especifica la dirección de información que se desea ver en la clasificación" id="1089240" label="CODIGOREFERENCIA" length="10" name="CODIGOREFERENCIA" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEtSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEtiTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1089241" label="URL" length="500" name="URL" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEtyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEuCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Indica si una clasificación aplica para que sus artículos puedan tener compuestos transgénicos" id="1089242" label="APLICATRANSGENICO" length="1" name="APLICATRANSGENICO" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_aeHEuSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'1'" xmi:id="_aeHEuiTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="valor de estado para verificar que una clasificacion posea o no registro sanitario" id="1089243" label="VALORAPLICAREGISTROSANITARIO" length="3" name="VALORAPLICAREGISTROSANITARIO" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEuyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'NA'" xmi:id="_aeHEvCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="codigo de estado para verificar que una clasificacion posea o no registro sanitario" id="1089244" label="CODIGOAPLICAREGISTROSANITARIO" length="10" name="CODIGOAPLICAREGISTROSANITARIO" sourceType="INTEGER" talendType="id_Integer" xmi:id="_aeHEvSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="272" xmi:id="_aeHEviTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Campo que indica si se debe o no igualar el costo de todos los proveedores que venden articulos de esta clasificacion" id="1089245" label="UNIFICARCOSTOPROVEEDOR" length="5" name="UNIFICARCOSTOPROVEEDOR" sourceType="SMALLINT" talendType="id_Short" xmi:id="_aeHEvyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEwCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1089246" label="REQUIEREUNIDADMANEJOEAN128" length="1" name="REQUIEREUNIDADMANEJOEAN128" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEwSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'0'" xmi:id="_aeHEwiTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1089247" label="CODIGOESTRUCTURA" length="20" name="CODIGOESTRUCTURA" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEwyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHExCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1089248" label="CODIGOTIPORESISTENCIA" length="10" name="CODIGOTIPORESISTENCIA" sourceType="INTEGER" talendType="id_Integer" xmi:id="_aeHExSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHExiTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1089249" label="VALORTIPORESISTENCIA" length="3" name="VALORTIPORESISTENCIA" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHExyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEyCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1089250" label="CODIGOTIPOCONTAMINANTE" length="10" name="CODIGOTIPOCONTAMINANTE" sourceType="INTEGER" talendType="id_Integer" xmi:id="_aeHEySTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEyiTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1089251" label="VALORTIPOCONTAMINANTE" length="3" name="VALORTIPOCONTAMINANTE" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEyyTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEzCTdEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="ALMACENA EL CODIGO DE CLASIFICACION DGI PARA FACTURACION" id="1089252" label="CODIGOFAMILIADGI" length="10" name="CODIGOFAMILIADGI" sourceType="VARCHAR" talendType="id_String" xmi:id="_aeHEzSTdEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aeHEziTdEe6fspHeAdcETw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f0290410-ac88-4ec0-9b5e-1fa8f24ff252"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HcAoKM9+ZEYc8YJA3kHskE36TzNZ9copJzb3/30NtJTby+RVybxHQaxUs0td2UOXjMK6W9XL/JQc&#13;
+vkqmsiFgBg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b7b31cf5-2be2-40bf-91b7-92c82fb2d1df"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JwhvJAKcE50X65KwCaEi6Dsp278PclfJlWNetnngJZqU3E1NBcUR/4mQJOAfbTshh5uSSRCiw8cH&#13;
+ypQK+EtyPQ==</DigestValue></Reference></SignedInfo><SignatureValue>Byjm4DTY86gE9D8eoGKXGBkslWUAD2l/rVuPLiNuHTsDVLBQCh82wqu9mVqc1o3tDv71YX9ftphs&#13;
+GA8GH4aclBVaSFrDqIgidpaudfqVyh9fiIvUOps52Tr4yKn61Mq8q0JNikq9Mbxl5dQsITkaCUJy&#13;
+/pRRKf9B8hyPeEYjRdfwke/+5Bbgf3QQxLkBlmkiT0tYzVnPzuSW8sl9WbrABv7Rx/49o343AR0t&#13;
+nfqIyxFUq9QeY5bHOvKeo9Um6hNjWz1pTDYtq6EPWUhFHR5C1c0jbe1ixDqGRL8J1Yq1RMqT07au&#13;
+tFU5tyrNeYm5Y2pkLX7We0T9AhJtzXPPPbuC+A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b7b31cf5-2be2-40bf-91b7-92c82fb2d1df" Target="#_f0290410-ac88-4ec0-9b5e-1fa8f24ff252"><Timestamp>2024-03-14 00:24:05</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection comment="connectionComment" dataPackage="_cvTm4STkEe6fspHeAdcETw" label="connectionLabel" xmi:id="_cvTm4CTkEe6fspHeAdcETw"/>
+  <TalendMetadata:GenericPackage dataManager="_cvTm4CTkEe6fspHeAdcETw" xmi:id="_cvTm4STkEe6fspHeAdcETw">
+    <ownedElement label="metadata" xmi:id="_cvTm4iTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataTable">
+      <feature comment="codigo de la compania" id="1614821" key="true" label="CODIGOCOMPANIA" length="10" name="CODIGOCOMPANIA" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_cvTm4yTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTm5CTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="codigo asignado a un area de trabajo" id="1614822" key="true" label="CODIGOAREATRABAJO" length="10" name="CODIGOAREATRABAJO" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_cvTm5STkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTm5iTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="nombre de un area de trabajo" id="1614823" label="NOMBREAREATRABAJO" length="100" name="NOMBREAREATRABAJO" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTm5yTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTm6CTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="estado del area de trabajo Valores: ACT: activo INA: inactivo" id="1614824" label="ESTADOAREATRABAJO" length="3" name="ESTADOAREATRABAJO" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTm6STkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTm6iTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="tipo del area de trabajo valores: AGENCIA: aplica a locales OFICINA: para gestiones en oficinas centrales BODEGA: bodegas" id="1614825" label="TIPOAREATRABAJO" length="16" name="TIPOAREATRABAJO" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTm6yTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTm7CTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="codigo del local asignado al area de trabajo" id="1614826" label="CODIGOLOCAL" length="10" name="CODIGOLOCAL" sourceType="INTEGER" talendType="id_Integer" xmi:id="_cvTm7STkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTm7iTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="codigodel area de trabajo del cual depende " id="1614827" label="CODIGOAREATRABAJOPADRE" length="10" name="CODIGOAREATRABAJOPADRE" sourceType="INTEGER" talendType="id_Integer" xmi:id="_cvTm7yTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTm8CTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="punto emisor" id="1614828" label="CODIGOPUNTOEMISOR" length="64" name="CODIGOPUNTOEMISOR" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTm8STkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTm8iTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="area de trabajo asignado para el embosing" id="1614829" label="CODIGOAREATRABAJOEMBOSSING" length="10" name="CODIGOAREATRABAJOEMBOSSING" sourceType="INTEGER" talendType="id_Integer" xmi:id="_cvTm8yTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTm9CTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="codigo de division geopolitica que representa a una ciudad" id="1614830" label="CODIGOCIUDAD" length="10" name="CODIGOCIUDAD" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTm9STkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTm9iTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="usuario que realizo el registro del area de trabajo" id="1614831" label="USUARIOREGISTRO" length="32" name="USUARIOREGISTRO" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTm9yTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTm-CTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="fecha en la que se creo el registro del area de trabajo" id="1614832" label="FECHAREGISTRO" length="26" name="FECHAREGISTRO" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_cvTm-STkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTm-iTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="usuario que realizo la ultima modificacion" id="1614833" label="USUARIOMODIFICACION" length="32" name="USUARIOMODIFICACION" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTm-yTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTm_CTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="fecha de la ultima modificacion" id="1614834" label="FECHAMODIFICACION" length="26" name="FECHAMODIFICACION" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_cvTm_STkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTm_iTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Este campo contiene la informacion relacionada a la direccion establecidad para un area de trabajo determinada, no es obligatorio su registro" id="1614835" label="DIRECCIONAREATRABAJO" length="128" name="DIRECCIONAREATRABAJO" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTm_yTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTnACTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Este campo contiene la informacion relacionada a SSPCOTCATALOGOVALOR para el caso de las areas de trabajo&#13;&#10;BOD: BODEGA&#13;&#10;AGE: AGENCIA&#13;&#10;CDT: CDT&#13;&#10;DEP: DEPARTAMENTO&#13;&#10;NOD: NODEFINIDO&#13;&#10;OFI: OFICINA&#13;&#10;SIS: SISTEMA" id="1614836" label="TIPOAREATRABAJOVALOR" length="3" name="TIPOAREATRABAJOVALOR" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTnASTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTnAiTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Obtiene el codigo del tipo de caralogo para areas de trabajo" id="1614837" label="TIPOAREATRABAJOTIC" length="10" name="TIPOAREATRABAJOTIC" sourceType="INTEGER" talendType="id_Integer" xmi:id="_cvTnAyTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTnBCTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Código de formato de negocio" id="1614838" label="CODIGOFORMATONEGOCIO" length="3" name="CODIGOFORMATONEGOCIO" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTnBSTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'OFI'" xmi:id="_cvTnBiTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Indica si el área de trabajo es la matriz de la Corporación." id="1614839" label="ESMATRIZ" length="1" name="ESMATRIZ" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_cvTnByTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'0'" xmi:id="_cvTnCCTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Código JDEdwars de la persona." id="1614840" label="CODIGOJDE" length="10" name="CODIGOJDE" sourceType="INTEGER" talendType="id_Integer" xmi:id="_cvTnCSTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTnCiTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1614841" label="CODIGOESTABLECIMIENTO" length="10" name="CODIGOESTABLECIMIENTO" sourceType="INTEGER" talendType="id_Integer" xmi:id="_cvTnCyTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTnDCTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Codigo del centro de costo determinado por el JDEdwars." id="1614842" label="CODIGOCENTROCOSTO" length="32" name="CODIGOCENTROCOSTO" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTnDSTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTnDiTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1614843" label="CODIGOREFERENCIA" length="10" name="CODIGOREFERENCIA" sourceType="INTEGER" talendType="id_Integer" xmi:id="_cvTnDyTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTnECTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Especifica el nombre corto del area de trabajo" id="1614844" label="NOMBRECORTO" length="50" name="NOMBRECORTO" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTnESTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTnEiTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Numero de embosadoras por area de trabajo" id="1614845" label="CANTIDADEMBOSADORA" length="10" name="CANTIDADEMBOSADORA" sourceType="INTEGER" talendType="id_Integer" xmi:id="_cvTnEyTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="0" xmi:id="_cvTnFCTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Especifica valor del tipo de la naturaleza del area de trabajo puede ser fisico o logico" id="1614846" label="NATARETRA" length="3" name="NATARETRA" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTnFSTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'FIS'" xmi:id="_cvTnFiTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Especifica codigo del tipo de la naturaleza del area de trabajo" id="1614847" label="CODNATARETRA" length="10" name="CODNATARETRA" sourceType="INTEGER" talendType="id_Integer" xmi:id="_cvTnFyTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="1319" xmi:id="_cvTnGCTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1614848" label="LATITUD" length="9" name="LATITUD" precision="6" sourceType="DECIMAL" talendType="id_BigDecimal" xmi:id="_cvTnGSTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTnGiTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1614849" label="LONGITUD" length="9" name="LONGITUD" precision="6" sourceType="DECIMAL" talendType="id_BigDecimal" xmi:id="_cvTnGyTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTnHCTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="codigo asignado al valor del catalogo para origen del area de trabajo" id="1614850" label="ORIGENAREATRABAJOVALOR" length="3" name="ORIGENAREATRABAJOVALOR" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTnHSTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'INT'" xmi:id="_cvTnHiTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="codigo del tipo de catalogo  para origen del area de trabajo" id="1614851" label="ORIGENAREATRABAJOTIPO" length="10" name="ORIGENAREATRABAJOTIPO" sourceType="INTEGER" talendType="id_Integer" xmi:id="_cvTnHyTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="2034" xmi:id="_cvTnICTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Indica la ubicacion del area de trabajo" id="1614852" label="CODIGODIVGEOPOL" length="10" name="CODIGODIVGEOPOL" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTnISTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTnIiTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1614853" label="CODPAISDIRPRI" length="10" name="CODPAISDIRPRI" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTnIyTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="NULL" xmi:id="_cvTnJCTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1614854" label="AGRTERRUTTIC" length="10" name="AGRTERRUTTIC" sourceType="INTEGER" talendType="id_Integer" xmi:id="_cvTnJSTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTnJiTkEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1614855" label="AGRTERRUTVAL" length="3" name="AGRTERRUTVAL" sourceType="VARCHAR" talendType="id_String" xmi:id="_cvTnJyTkEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_cvTnKCTkEe6fspHeAdcETw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_18d223f3-fada-4875-8d9a-4bc09020a81b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5tG4EhqeYFG3k1hPuj/wLoNt0UqGfrCMfdNCMS8xrjfG5Pz+KxmaRPvZM8hb1hgzE1b+IVqpq0zq&#13;
+/BgAChFMUw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1cf9e6ae-c536-4821-99e6-d41cc21af658"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4At+W+Rpf6T6j7B2LWm/dQ3dPJEuEhFdBW9tLR60XQxSO6yA4oR1KjE0QerXtT8bu0S3DitZXh/V&#13;
+XWCrH7pIVQ==</DigestValue></Reference></SignedInfo><SignatureValue>OrnsF02cKo6p1mxnVO7pei9huQXW2lmrD98VlScPtS3yHvBT3VR4qnR73gStOdgRK2CN6hqG1PyT&#13;
+IMFRDPaUZM3FaTrflrBsn2diQqAvsd8zMdUB1sEAojY2xjT2euezBxGv2h4iV/ul5E67FVGh3Bw0&#13;
+bAowDSFE05rSOoA+AnSiPqfQoy7iSRYElzAeFJJFjkHv+AIlqQ1iIEQXszTfYXvRtKGfiuVQsQEv&#13;
+ADGAXKuIzqHh7wsJRJMN+2nAdGxx3w4y/H2r4v+LEovGL0UnJ0xqwkXXGxXLIOrQ6+6yMrH0dZDD&#13;
+yBHCSFueNfdQHESA8hjEqnh5GPDKT4lZNzkX2A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1cf9e6ae-c536-4821-99e6-d41cc21af658" Target="#_18d223f3-fada-4875-8d9a-4bc09020a81b"><Timestamp>2024-03-14 00:24:05</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

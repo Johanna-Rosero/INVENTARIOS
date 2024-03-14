@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedItems id="_Kp5RYBq3Ee6NsLMmA0Ek6Q" path="BI_DATA_DRIVEN" type="PROCESS"/>
+  <deletedItems id="_DpRHQBXVEe67U9CiJmlJ8A" path="CAPA_CAPTURA_DSA" type="PROCESS"/>
+  <deletedItems id="_Si_CoBXXEe67U9CiJmlJ8A" path="CAPA_CAPTURA_DSA" type="PROCESS"/>
+  <deletedItems id="_ik21gB0DEe6_hOQA2WVC7A" path="TEST_SDK_GOOGLE" type="PROCESS"/>
+</recyclebin:RecycleBin>

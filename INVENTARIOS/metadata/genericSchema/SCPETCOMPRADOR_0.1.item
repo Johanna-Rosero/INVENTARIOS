@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection comment="connectionComment" dataPackage="_b8CJISTfEe6fspHeAdcETw" label="connectionLabel" xmi:id="_b8CJICTfEe6fspHeAdcETw"/>
+  <TalendMetadata:GenericPackage dataManager="_b8CJICTfEe6fspHeAdcETw" xmi:id="_b8CJISTfEe6fspHeAdcETw">
+    <ownedElement label="metadata" xmi:id="_b8CJIiTfEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataTable">
+      <feature comment="Código de la companía" id="1089266" key="true" label="CODIGOCOMPANIA" length="10" name="CODIGOCOMPANIA" nullable="false" sourceType="INTEGER" talendType="id_Integer" xmi:id="_b8CJIyTfEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_b8CJJCTfEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Código del comprador" id="1089267" key="true" label="CODIGOCOMPRADOR" length="10" name="CODIGOCOMPRADOR" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_b8CJJSTfEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_b8CJJiTfEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Nombre del comprador" id="1089268" label="NOMBRECOMPRADOR" length="100" name="NOMBRECOMPRADOR" sourceType="VARCHAR" talendType="id_String" xmi:id="_b8CJJyTfEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_b8CJKCTfEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Estado del comprador, los valores pueden ser: [1] Activo, [0] Inactivo" id="1089269" label="ESTADOCOMPRADOR" length="1" name="ESTADOCOMPRADOR" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_b8CJKSTfEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_b8CJKiTfEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Fecha de última actualización del registro." id="1089270" label="FECHAULTIMAACTUALIZACION" length="26" name="FECHAULTIMAACTUALIZACION" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_b8CJKyTfEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_b8CJLCTfEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="El usuario que relizó la última actualización sobre el registro." id="1089271" label="USUARIOACTUALIZACION" length="32" name="USUARIOACTUALIZACION" sourceType="VARCHAR" talendType="id_String" xmi:id="_b8CJLSTfEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_b8CwMCTfEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Indica el usuario que creó el registro" id="1089272" label="USUARIOCREACION" length="32" name="USUARIOCREACION" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_b8CwMSTfEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'FRM0'" xmi:id="_b8CwMiTfEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Indica la fecha en que fue creado el registro" id="1089273" label="FECHACREACION" length="26" name="FECHACREACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_b8CwMyTfEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'CURRENT_TIMESTAMP'" xmi:id="_b8CwNCTfEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Email del comprador" id="1089274" label="EMAILCOMPRADOR" length="100" name="EMAILCOMPRADOR" sourceType="VARCHAR" talendType="id_String" xmi:id="_b8CwNSTfEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_b8CwNiTfEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Indica el tipo de comprador, sus valores posibles son:&#13;&#10;[INT] Interno: Indica que el comprador esta asociado con los establecimientos propios de la corporación, ej: SUPERMAXI, MEGAMAXI, etc.&#13;&#10;[EXT] Externo: Indica que el comprador esta asociado con establ" id="1089275" label="TIPOCOMPRADOR" length="3" name="TIPOCOMPRADOR" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_b8CwNyTfEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'INT'" xmi:id="_b8CwOCTfEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Codigo de funcionario relacionado al comprador" id="1089276" label="CODIGOFUNCIONARIO" length="64" name="CODIGOFUNCIONARIO" sourceType="VARCHAR" talendType="id_String" xmi:id="_b8CwOSTfEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_b8CwOiTfEe6fspHeAdcETw"/>
+      </feature>
+      <feature id="1089277" label="CODIGOREFERENCIAIMPORTACIONES" length="20" name="CODIGOREFERENCIAIMPORTACIONES" sourceType="VARCHAR" talendType="id_String" xmi:id="_b8CwOyTfEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_b8CwPCTfEe6fspHeAdcETw"/>
+      </feature>
+      <feature comment="Indica el área a la que pertenece el comprador" id="1089278" label="AREAREFERENCIA" length="128" name="AREAREFERENCIA" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_b8CwPSTfEe6fspHeAdcETw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="''" xmi:id="_b8CwPiTfEe6fspHeAdcETw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e2d3475c-d24e-4ae8-bceb-f017c16d8360"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>m62vGtyQtW/twj1Xk2ZBTXF3Qsiv8q82cn9cG+zK2E5a2l4rpJh1JEuC5llAKU1RG9MP9CUOpjEn&#13;
+jOsafQ9CbA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c74895f7-73b9-49b1-8830-af88b319b0d2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IWK8u6Cvh/1v+Gx9md6bXJV0NGZ9wN0vEotZOmBMR626M6iso5yryTV8frXn8iTZfyMxu9mwt6QZ&#13;
+9aeBIylycw==</DigestValue></Reference></SignedInfo><SignatureValue>oiWtIctkzgBQh00r/SLdpQ3PMtk2VZdjl3RxahGdUj7AdbgBHxAGvQ3An1Gn87HZZfjK0DgUDnOC&#13;
+ILovz1Zj7iWNJfKj6Xq57qVanOqNlOF1pttbHcn8b+UkDn0YhGdH1JareNlA4f8LvLG1xUARKdyp&#13;
+4hw4wU2DJTL0QvzVtBtlob7YGCTtrGh7BCNQVnZC1kBX0gCHzJmhJjXUoC3sqW6TNri5uYYl7AkE&#13;
+o2lf2tmFQduvBU3w2v9eiVUiG3N7vzZX3qCwy602Tdba6ilPa/kqeOpVf9B/uZr5Lekb4iItpCX6&#13;
+iaPRXCp10xvNEspvZiLPxv7Jfp7PjepeMA8Fag==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c74895f7-73b9-49b1-8830-af88b319b0d2" Target="#_e2d3475c-d24e-4ae8-bceb-f017c16d8360"><Timestamp>2024-03-14 00:24:05</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
